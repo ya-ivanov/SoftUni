@@ -1,0 +1,4 @@
+milk 2.25
+eggs 0.65
+apples 5.36
+bananas 5.6
