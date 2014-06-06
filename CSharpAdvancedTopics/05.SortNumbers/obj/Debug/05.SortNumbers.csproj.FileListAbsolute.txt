@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\05.SortNumbers\bin\Debug\05.SortNumbers.exe.config
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\05.SortNumbers\bin\Debug\05.SortNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\05.SortNumbers\bin\Debug\05.SortNumbers.pdb
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\05.SortNumbers\obj\Debug\05.SortNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\05.SortNumbers\obj\Debug\05.SortNumbers.pdb

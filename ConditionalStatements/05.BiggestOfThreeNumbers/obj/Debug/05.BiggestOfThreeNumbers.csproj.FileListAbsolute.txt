@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\05.BiggestOfThreeNumbers\bin\Debug\05.BiggestOfThreeNumbers.exe.config
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\05.BiggestOfThreeNumbers\bin\Debug\05.BiggestOfThreeNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\05.BiggestOfThreeNumbers\bin\Debug\05.BiggestOfThreeNumbers.pdb
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\05.BiggestOfThreeNumbers\obj\Debug\05.BiggestOfThreeNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\05.BiggestOfThreeNumbers\obj\Debug\05.BiggestOfThreeNumbers.pdb

@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\PrimitiveDataTypes\EmployeeData\bin\Debug\EmployeeData.exe.config
+C:\Users\yavko\Desktop\SoftUni\PrimitiveDataTypes\EmployeeData\bin\Debug\EmployeeData.exe
+C:\Users\yavko\Desktop\SoftUni\PrimitiveDataTypes\EmployeeData\bin\Debug\EmployeeData.pdb
+C:\Users\yavko\Desktop\SoftUni\PrimitiveDataTypes\EmployeeData\obj\Debug\EmployeeData.exe
+C:\Users\yavko\Desktop\SoftUni\PrimitiveDataTypes\EmployeeData\obj\Debug\EmployeeData.pdb

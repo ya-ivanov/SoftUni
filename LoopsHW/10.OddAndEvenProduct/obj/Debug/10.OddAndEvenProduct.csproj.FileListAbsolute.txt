@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\10.OddAndEvenProduct\bin\Debug\10.OddAndEvenProduct.exe.config
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\10.OddAndEvenProduct\bin\Debug\10.OddAndEvenProduct.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\10.OddAndEvenProduct\bin\Debug\10.OddAndEvenProduct.pdb
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\10.OddAndEvenProduct\obj\Debug\10.OddAndEvenProduct.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\10.OddAndEvenProduct\obj\Debug\10.OddAndEvenProduct.pdb

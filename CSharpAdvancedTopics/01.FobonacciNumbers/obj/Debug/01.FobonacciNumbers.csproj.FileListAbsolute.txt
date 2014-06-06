@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\01.FobonacciNumbers\bin\Debug\01.FobonacciNumbers.exe.config
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\01.FobonacciNumbers\bin\Debug\01.FobonacciNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\01.FobonacciNumbers\bin\Debug\01.FobonacciNumbers.pdb
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\01.FobonacciNumbers\obj\Debug\01.FobonacciNumbers.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\01.FobonacciNumbers\obj\Debug\01.FobonacciNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\01.FobonacciNumbers\obj\Debug\01.FobonacciNumbers.pdb

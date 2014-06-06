@@ -1,0 +1,1 @@
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\12.CountOfNames\bin\Debug\12.CountOfNames.exe.config

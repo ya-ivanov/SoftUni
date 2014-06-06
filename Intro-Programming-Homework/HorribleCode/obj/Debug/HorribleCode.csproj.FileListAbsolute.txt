@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.exe.config
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.exe
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.pdb
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\HorribleCode\obj\Debug\HorribleCode.exe
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\HorribleCode\obj\Debug\HorribleCode.pdb

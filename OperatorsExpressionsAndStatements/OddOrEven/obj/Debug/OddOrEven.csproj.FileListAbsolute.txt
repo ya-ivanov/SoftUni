@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\OddOrEven\bin\Debug\OddOrEven.exe.config
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\OddOrEven\bin\Debug\OddOrEven.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\OddOrEven\bin\Debug\OddOrEven.pdb
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\OddOrEven\obj\Debug\OddOrEven.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\OddOrEven\obj\Debug\OddOrEven.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\OddOrEven\obj\Debug\OddOrEven.pdb

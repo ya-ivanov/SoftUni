@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\03.PrimesInGivenRange\bin\Debug\03.PrimesInGivenRange.exe.config
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\03.PrimesInGivenRange\bin\Debug\03.PrimesInGivenRange.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\03.PrimesInGivenRange\bin\Debug\03.PrimesInGivenRange.pdb
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\03.PrimesInGivenRange\obj\Debug\03.PrimesInGivenRange.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\03.PrimesInGivenRange\obj\Debug\03.PrimesInGivenRange.pdb

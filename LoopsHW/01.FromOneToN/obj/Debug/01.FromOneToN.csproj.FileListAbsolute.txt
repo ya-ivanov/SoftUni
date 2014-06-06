@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\01.FromOneToN\bin\Debug\01.FromOneToN.exe.config
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\01.FromOneToN\bin\Debug\01.FromOneToN.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\01.FromOneToN\bin\Debug\01.FromOneToN.pdb
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\01.FromOneToN\obj\Debug\01.FromOneToN.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\01.FromOneToN\obj\Debug\01.FromOneToN.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\01.FromOneToN\obj\Debug\01.FromOneToN.pdb

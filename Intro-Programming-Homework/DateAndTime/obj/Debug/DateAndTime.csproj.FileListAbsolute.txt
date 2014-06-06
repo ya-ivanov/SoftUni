@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\DateAndTime\bin\Debug\DateAndTime.exe.config
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\DateAndTime\bin\Debug\DateAndTime.exe
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\DateAndTime\bin\Debug\DateAndTime.pdb
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\DateAndTime\obj\Debug\DateAndTime.exe
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\DateAndTime\obj\Debug\DateAndTime.pdb

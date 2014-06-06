@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\11.ThirdBit\bin\Debug\11.ThirdBit.exe.config
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\11.ThirdBit\bin\Debug\11.ThirdBit.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\11.ThirdBit\bin\Debug\11.ThirdBit.pdb
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\11.ThirdBit\obj\Debug\11.ThirdBit.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\11.ThirdBit\obj\Debug\11.ThirdBit.pdb

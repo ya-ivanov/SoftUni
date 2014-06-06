@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\AfterTenYears\bin\Debug\AfterTenYears.exe.config
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\AfterTenYears\bin\Debug\AfterTenYears.exe
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\AfterTenYears\bin\Debug\AfterTenYears.pdb
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\AfterTenYears\obj\Debug\AfterTenYears.exe
+C:\Users\yavko\Desktop\SoftUni\Intro-Programming-Homework\AfterTenYears\obj\Debug\AfterTenYears.pdb

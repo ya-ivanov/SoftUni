@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\04.MultiplicationSign\bin\Debug\04.MultiplicationSign.exe.config
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\04.MultiplicationSign\bin\Debug\04.MultiplicationSign.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\04.MultiplicationSign\bin\Debug\04.MultiplicationSign.pdb
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\04.MultiplicationSign\obj\Debug\04.MultiplicationSign.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\04.MultiplicationSign\obj\Debug\04.MultiplicationSign.pdb

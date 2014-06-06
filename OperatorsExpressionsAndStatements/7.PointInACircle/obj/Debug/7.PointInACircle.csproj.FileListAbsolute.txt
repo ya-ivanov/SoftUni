@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\7.PointInACircle\bin\Debug\7.PointInACircle.exe.config
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\7.PointInACircle\bin\Debug\7.PointInACircle.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\7.PointInACircle\bin\Debug\7.PointInACircle.pdb
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\7.PointInACircle\obj\Debug\7.PointInACircle.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\7.PointInACircle\obj\Debug\7.PointInACircle.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\7.PointInACircle\obj\Debug\7.PointInACircle.pdb

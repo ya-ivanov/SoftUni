@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\16.CountAWordInAText\bin\Debug\16.CountAWordInAText.exe.config
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\16.CountAWordInAText\bin\Debug\16.CountAWordInAText.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\16.CountAWordInAText\bin\Debug\16.CountAWordInAText.pdb
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\16.CountAWordInAText\obj\Debug\16.CountAWordInAText.exe
+C:\Users\yavko\Desktop\SoftUni\CSharpAdvancedTopics\16.CountAWordInAText\obj\Debug\16.CountAWordInAText.pdb

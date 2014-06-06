@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\09.PlayWithVariables\bin\Debug\09.PlayWithVariables.exe.config
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\09.PlayWithVariables\bin\Debug\09.PlayWithVariables.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\09.PlayWithVariables\bin\Debug\09.PlayWithVariables.pdb
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\09.PlayWithVariables\obj\Debug\09.PlayWithVariables.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\09.PlayWithVariables\obj\Debug\09.PlayWithVariables.pdb

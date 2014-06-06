@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\06.BiggestOfFiveNumbers\bin\Debug\06.BiggestOfFiveNumbers.exe.config
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\06.BiggestOfFiveNumbers\bin\Debug\06.BiggestOfFiveNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\06.BiggestOfFiveNumbers\bin\Debug\06.BiggestOfFiveNumbers.pdb
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\06.BiggestOfFiveNumbers\obj\Debug\06.BiggestOfFiveNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\06.BiggestOfFiveNumbers\obj\Debug\06.BiggestOfFiveNumbers.pdb

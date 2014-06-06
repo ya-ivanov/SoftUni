@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe.config
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.pdb
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.pdb

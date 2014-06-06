@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\18.TrailingZeroesInNFact\bin\Debug\18.TrailingZeroesInNFact.exe.config
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\18.TrailingZeroesInNFact\bin\Debug\18.TrailingZeroesInNFact.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\18.TrailingZeroesInNFact\bin\Debug\18.TrailingZeroesInNFact.pdb
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\18.TrailingZeroesInNFact\obj\Debug\18.TrailingZeroesInNFact.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\18.TrailingZeroesInNFact\obj\Debug\18.TrailingZeroesInNFact.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\18.TrailingZeroesInNFact\obj\Debug\18.TrailingZeroesInNFact.pdb

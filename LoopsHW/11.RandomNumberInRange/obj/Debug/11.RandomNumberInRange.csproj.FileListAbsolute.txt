@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\11.RandomNumberInRange\bin\Debug\11.RandomNumberInRange.exe.config
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\11.RandomNumberInRange\bin\Debug\11.RandomNumberInRange.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\11.RandomNumberInRange\bin\Debug\11.RandomNumberInRange.pdb
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\11.RandomNumberInRange\obj\Debug\11.RandomNumberInRange.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\11.RandomNumberInRange\obj\Debug\11.RandomNumberInRange.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\11.RandomNumberInRange\obj\Debug\11.RandomNumberInRange.pdb

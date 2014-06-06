@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\10.InCircleOutOfRectangle\bin\Debug\10.InCircleOutOfRectangle.exe.config
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\10.InCircleOutOfRectangle\bin\Debug\10.InCircleOutOfRectangle.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\10.InCircleOutOfRectangle\bin\Debug\10.InCircleOutOfRectangle.pdb
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\10.InCircleOutOfRectangle\obj\Debug\10.InCircleOutOfRectangle.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\10.InCircleOutOfRectangle\obj\Debug\10.InCircleOutOfRectangle.pdb

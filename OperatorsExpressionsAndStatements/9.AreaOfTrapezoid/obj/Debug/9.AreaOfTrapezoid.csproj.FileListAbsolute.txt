@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\9.AreaOfTrapezoid\bin\Debug\9.AreaOfTrapezoid.exe.config
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\9.AreaOfTrapezoid\bin\Debug\9.AreaOfTrapezoid.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\9.AreaOfTrapezoid\bin\Debug\9.AreaOfTrapezoid.pdb
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\9.AreaOfTrapezoid\obj\Debug\9.AreaOfTrapezoid.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\9.AreaOfTrapezoid\obj\Debug\9.AreaOfTrapezoid.pdb

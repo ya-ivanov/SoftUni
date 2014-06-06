@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\07.CalculateCombinations\bin\Debug\07.CalculateCombinations.exe.config
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\07.CalculateCombinations\bin\Debug\07.CalculateCombinations.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\07.CalculateCombinations\bin\Debug\07.CalculateCombinations.pdb
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\07.CalculateCombinations\obj\Debug\07.CalculateCombinations.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\07.CalculateCombinations\obj\Debug\07.CalculateCombinations.pdb

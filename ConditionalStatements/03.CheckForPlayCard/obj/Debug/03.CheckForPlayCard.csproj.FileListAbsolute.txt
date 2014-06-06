@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\03.CheckForPlayCard\bin\Debug\03.CheckForPlayCard.exe.config
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\03.CheckForPlayCard\bin\Debug\03.CheckForPlayCard.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\03.CheckForPlayCard\bin\Debug\03.CheckForPlayCard.pdb
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\03.CheckForPlayCard\obj\Debug\03.CheckForPlayCard.exe
+C:\Users\yavko\Desktop\SoftUni\ConditionalStatements\03.CheckForPlayCard\obj\Debug\03.CheckForPlayCard.pdb

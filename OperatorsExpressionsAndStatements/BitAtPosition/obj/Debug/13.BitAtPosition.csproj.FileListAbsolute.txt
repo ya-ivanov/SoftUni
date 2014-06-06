@@ -1,0 +1,3 @@
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\BitAtPosition\bin\Debug\BitAtPosition.exe.config
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\BitAtPosition\obj\Debug\BitAtPosition.exe
+C:\Users\yavko\Desktop\SoftUni\OperatorsExpressionsAndStatements\BitAtPosition\obj\Debug\BitAtPosition.pdb

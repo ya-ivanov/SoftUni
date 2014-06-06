@@ -1,0 +1,5 @@
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\14.DecimalToBinary\bin\Debug\14.DecimalToBinary.exe.config
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\14.DecimalToBinary\bin\Debug\14.DecimalToBinary.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\14.DecimalToBinary\bin\Debug\14.DecimalToBinary.pdb
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\14.DecimalToBinary\obj\Debug\14.DecimalToBinary.exe
+C:\Users\yavko\Desktop\SoftUni\LoopsHW\14.DecimalToBinary\obj\Debug\14.DecimalToBinary.pdb
