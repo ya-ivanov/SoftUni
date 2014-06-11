@@ -3,8 +3,12 @@
 		<title>PowerPointSlide</title>
 		<style>
 			.exampleHolder{
-				width: 30%;
-				border: 1px solid black;
+				width: 90%;
+				border: 1px solid white;
+				background: #dedede;
+				opacity: 0.5;
+				color:rgba(132, 130, 0, 1);
+				font-weight: bold;
 				padding-top: 5px;
 				padding-bottom: 5px;
 			}
@@ -14,31 +18,66 @@
 				padding-left: 10px;
 					
 			}
+
+			#slideHolder{
+				background: url('bg.jpg') repeat;
+				width:550px;
+				height: 400px;
+				font-size: 19px;
+
+			}
+
+
+			.sub-title{
+				color: orange;
+				font-size: 22px;
+			}
+
+			h3{
+				color:orange;
+				margin: 20px;
+			}
+
+			.type{color:white;}
+
+			.tag{
+				color:orange;
+				display: inline-block;
+			}
+
 		</style>
 	</head>
 	<body>
-		<h3>Headings and Paragraphs</h3>
-		<ul type="square">
-			<li>Heading tags: &lt;h1&gt; - &lt;h6&gt; 
-				<div class="exampleHolder">
-					<p>&lt;h1&gt;Heading 1&lt;h1&gt; </p>
-					<p>&lt;h2&gt;Sub Heading 2&lt;h2&gt; </p>
-					<p>&lt;h3&gt;Sub Heading 3&lt;h3&gt; </p>
-				</div>
-			</li>
-			<li>Paragraph tags: &lt;p&gt; 
-				<div class="exampleHolder">
-					<p>&lt;p&gt;My first paragraph&lt;p&gt; </p>
-					<p>&lt;p&gt;My secon paragraph&lt;p&gt; </p>
-				</div>				
-			</li>
-			<li>Sections: &lt;div&gt; and &lt;span&gt; 
-				<div class="exampleHolder">
-					<p>&lt;div style="background:blue"&gt;
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Div</p>
-					&nbsp;&nbsp;&lt;/div&gt; </p> </p>
-				</div>
-			</li>
-		</ul>
+
+
+		<div id="slideHolder">
+
+			<h3>Headings and Paragraphs</h3>
+			<ul type="square">
+				<li class="sub-title"> <span class="type"> Heading tags: <p class="tag">&lt;h1&gt; - &lt;h6&gt;</p> </span>
+					<div class="exampleHolder">
+						<p>&lt;h1&gt;Heading 1&lt;h1&gt; </p>
+						<p>&lt;h2&gt;Sub Heading 2&lt;h2&gt; </p>
+						<p>&lt;h3&gt;Sub Heading 3&lt;h3&gt; </p>
+					</div>
+				</li>
+				<li class="sub-title"> <span class="type">Paragraph tags:<p class="tag">&lt;p&gt; </p></span>
+					<div class="exampleHolder">
+						<p>&lt;p&gt;My first paragraph&lt;p&gt; </p>
+						<p>&lt;p&gt;My secon paragraph&lt;p&gt; </p>
+					</div>				
+				</li>
+				<li class="sub-title"> <span class="type">Sections: <p class="tag">&lt;div&gt; and &lt;span&gt; </p></span>
+					<div class="exampleHolder">
+						<p>&lt;div style="background:blue"&gt;
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Div</p>
+						&nbsp;&nbsp;&lt;/div&gt; </p> </p>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+
+		
 	</body>
 </html>
