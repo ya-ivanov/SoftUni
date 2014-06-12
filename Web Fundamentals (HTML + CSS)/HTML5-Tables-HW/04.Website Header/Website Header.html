@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Website Header</title>
+
+		<style type="text/css">
+
+			header{
+				margin: 0px;
+				padding: 0px;
+				width: 100%;
+				height: 120px;
+				background:  #234465;
+			}
+
+			body{
+				margin: 0px;
+				padding: 0px;
+			}
+
+			#headLogo{
+				margin-left: 50px;
+				margin-top: 25px;
+				display: inline-block;
+			}
+
+			.nav{
+				float: right;
+				width: 70%;
+				height: 100%;
+
+			}
+
+			.navigationRow{
+				text-align: right;
+				display: inline-block;
+				margin-top: 30px;
+				margin-left: 55%;
+			}
+
+			.navigationRow td{
+				display: inline-block;
+				color: white;
+				font-size: 18px;
+				padding-right: 10px;
+
+			}
+
+			.navigationRowBottom td{
+				display: inline-block;
+				color: white;
+				font-size: 15px;
+				margin-right: 15px;
+				font-weight: bold;				
+				padding: 5px;
+				border-radius: 5px;
+				vertical-align:middle;
+			}
+
+			.navigationRowBottom td:hover{
+				background: #428BCA;
+				cursor: pointer;
+			}
+
+			#serchBox{
+				position: relative;
+				height: 35px;
+				width: 250px;
+				border-radius: 5px;
+
+			}
+
+			.caret{
+				border-top: 4px solid;
+				border-right: 4px solid transparent;
+				border-left: 4px solid transparent;
+				vertical-align: middle;
+				display: inline-block;
+				margin-left: 7px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<header>
+
+			<img id="headLogo" src="head-logo.png"></img>
+
+			<table class="nav">
+				<tr class="navigationRow">
+					<td>0 <img src="notificationsIcon.png"> </td>
+					<td>USER<strong class="caret"></strong></td>
+					<td> <input type="text" placeholder="Search..." id="serchBox"/> </td>
+				</tr>
+
+				<tr class="navigationRowBottom">
+					<td>NEWS</td>
+					<td>ABOUT THE UNIVERSITY<strong class="caret"></strong></td>
+					<td>THE TRAINING COURSES<strong class="caret"></strong></td>
+					<td>FOR COMPANIES</td>
+					<td>FORUM</td>
+					<td>CONTACTS</td>
+				</tr>
+
+			</table>
+
+		</header>
+	</body>
+</html>
