@@ -1,0 +1,196 @@
+<html>
+	<head>
+		<title>Laptops</title>
+	
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+
+			#laptops{
+				width: 580px;
+				height: 517px;
+				display: inline-block;
+			}
+
+			.title{
+				margin-top: 15px;
+				margin-left: 10px;
+				color: #2C425A;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+
+			.laptop{
+				width:175px;
+				height: 210px;
+				border:2px solid #EFF6FB;
+				border-radius: 10px;
+				color: #2C425A;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+
+			.laptopPreview{
+				width: 170px;
+				height: 100px;
+			}
+
+			.price{
+				background: #2C425A;
+				color:white;
+				height: 30px;
+				width: 105px;
+				float: right;
+				text-align: center;
+				margin-right: -2px;
+				margin-top: 5px;
+				padding-top: 10px;
+				border-top-left-radius: 10px;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+
+			#parameters{
+				width: 193px;
+				height: 507px;
+				border: 2px solid #EFF6FB;
+				background: #F7FCFF;
+				display: inline-block;
+				margin-top: 5px;
+				position: absolute;
+				text-align: center;
+			}
+
+			.slider{
+				width: 190px;
+			}
+
+			.slideTitle{
+				font-size: 17px;
+				color: #644574;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+
+			.sliderDiv{
+				width:100%;
+			}
+
+			.sliderDiv span{
+				font-size:15px; 
+				color:#644574;
+			}
+
+			.laptopTitle{
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size:17px; 
+				margin-left:5px;
+				margin-top: 5px;
+			}
+
+			.laptopParams{
+				font-family: Cambria, Georgia, serif;
+				margin-left: 5px;
+			}
+
+			.laptop:hover{
+				background: #F7FCFF;
+				cursor: pointer;
+			}
+
+			.price:hover{
+				background: #9DB604;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div id="laptops">
+			<h1 class="title">Apple's Laptops (6)</h1><br/>
+			<div class="laptop" style="margin-left:10px;" onclick="location.href='https://softuni.bg/';">
+				<h3 class="laptopTitle">Apple MacBook Air</h3>
+				<p class="laptopParams">11.6 inch/1.3GHz Haswell</p>
+				<img src="win8.png" class="laptopPreview"/>
+				<div class="price"><span>$1,729.00</span></div>
+			</div>
+			<div class="laptop" style="margin-left:10px;" onclick="location.href='https://softuni.bg/';">
+				<h3 class="laptopTitle">Apple MacBook Air</h3>
+				<p class="laptopParams">11.6 inch/1.4GHz Haswell</p>
+				<img src="acer.png" class="laptopPreview"/>
+				<div class="price"><span>$1,825.00</span></div>
+			</div>
+
+			<div class="laptop" style="margin-left:10px;" onclick="location.href='https://softuni.bg/';">
+				<h3 class="laptopTitle">Apple MacBook Air</h3>
+				<p class="laptopParams">13.3 inch/1.3GHz Haswell</p>
+				<img src="laptop.png" class="laptopPreview"/>
+				<div class="price"><span>$1,919.50</span></div>
+			</div>
+
+			<div class="laptop" style="margin-left:10px;" onclick="location.href='https://softuni.bg/';">
+				<h3 class="laptopTitle">Apple MacBook Air</h3>
+				<p class="laptopParams">13.3 inch/1.4GHz Haswell</p>
+				<img src="acer.png" class="laptopPreview"/>
+				<div class="price"><span>$1,999.00</span></div>
+			</div>
+			<div class="laptop" style="margin-left:10px;" onclick="location.href='https://softuni.bg/';">
+				<h3 class="laptopTitle">Apple MacBook Air</h3>
+				<p class="laptopParams">11.6 inch/1.4GHz Haswell 256GB SSD</p>
+				<img src="win8.png" class="laptopPreview"/>
+				<div class="price"><span>$2,119.00</span></div>
+			</div>
+
+			<div class="laptop" style="margin-left:10px;" onclick="location.href='https://softuni.bg/';">
+				<h3 class="laptopTitle">Apple MacBook Pro</h3>
+				<p class="laptopParams">11.6 inch/1.3GHz Haswell</p>
+				<img src="laptop.png" class="laptopPreview"/>
+				<div class="price"><span>$2,529.00</span></div>
+			</div>
+		</div>
+
+		<div id="parameters">
+			<p class="slideTitle" style="margin-top:17px;">Price</p>
+			<div class="sliderDiv">
+				<span style="float:left;">1700</span>
+				<span style="float:right;">2600</span>				
+			</div>
+			<input type="range" min="1700" max="2600" class="slider"/>
+
+			<p class="slideTitle" style="margin-top:17px;">RAM</p>
+			<div class="sliderDiv">
+				<span style="float:left;">2048</span>
+				<span style="float:right;">4096</span>				
+			</div>
+			<input type="range" min="2048" max="4096" class="slider"/>
+
+			<p class="slideTitle" style="margin-top:17px;">Disc</p>
+			<div class="sliderDiv">
+				<span style="float:left;">100GB</span>
+				<span style="float:right;">2000GB</span>				
+			</div>
+			<input type="range" min="100" max="2000" class="slider"/>
+
+			<p class="slideTitle" style="margin-top:17px;">Display</p>
+			<div class="sliderDiv">
+				<span style="float:left;">11.6</span>
+				<span style="float:right;">18.4</span>				
+			</div>
+			<input type="range" min="11" max="18" class="slider"/>
+
+			<p class="slideTitle" style="margin-top:17px;">Weight</p>
+			<div class="sliderDiv">
+				<span style="float:left;">1</span>
+				<span style="float:right;">6</span>				
+			</div>
+			<input type="range" min="1" max="6" value="4"  class="slider"/>
+
+			<p class="slideTitle" style="margin-top:17px;">Warranty</p>
+			<div class="sliderDiv">
+				<span style="float:left;">12 months</span>
+				<span style="float:right;">60 months</span>				
+			</div>
+			<input type="range" min="12" max="60" class="slider"/>
+		</div>
+	</body>
+</html>

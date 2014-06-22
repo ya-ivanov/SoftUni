@@ -1,0 +1,182 @@
+<html>
+	<head>
+		<title>Fakebook register form</title>
+		
+		<style type="text/css">
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+
+
+
+			#pageHolder{
+				width:843px;
+				height: 650px;
+				background: #3B5997;
+
+			}
+
+			.logo{
+				margin-left: auto;
+				margin-right: auto;
+				width: 600px;
+				height: 220px;
+				display: block;
+			}
+
+			form{
+				width:100%;
+			}
+
+			.not-important, .important{
+				width: 310px;
+				height: 260px;
+				border: 1px solid white;
+				border-radius: 10px;
+				color:white;				
+				font-size: 17px;
+				font-weight: bold;
+				margin-top: 40px;
+				margin-left: 20px;
+				display: inline-block;
+			}
+
+			.important{
+				width: 455px;
+				position: absolute;
+			}
+
+			.not-important legend, .important legend{				
+				text-align: center;
+			}
+
+			.input{
+				width: 135px;
+				height: 28px;
+				border-radius: 6px;
+				margin-top: 7px;
+				display: inline-block;
+				margin-right: 5px;
+				padding: 5px;
+			}
+
+			.date{
+				width: 210px;
+				margin-top: 5px;
+				display: block;
+				margin-left: 15px;
+			}
+
+			.fst{
+				margin-left: 15px;
+			}
+
+			.rb{
+				width: 55px;
+				display: inline-block;
+			}
+
+			.dropbox{
+				padding: 0px;
+				font-size: 12px;				
+			}
+
+			.labelDesc{
+				display:block; 
+				text-align:left;
+				margin-left:15px;
+				font-size: 16px;
+				font-weight:bold; 
+				margin-top:5px;
+			}
+
+			.formBtns{
+				height: 55px;
+				background: #DDDDDD;
+				color: #3B8EC2;
+				margin-top: 10px;
+				border-radius: 10px;
+				font-size: 22px;
+			}
+
+			.clearBtn{				
+				width: 312px;			
+				margin-left: 20px;				
+			}
+
+			.registerBtn{
+				width: 460px;
+				margin-left: 20px;
+			}
+
+
+		</style>
+
+	</head>
+	<body>
+		<div id="pageHolder">
+			<img src="logo.png" style="margin-top:-40px;" class="logo"/>
+			<h1 style="color:white; font-size:42px; text-align:center; margin-top:-35px; ">Registration</h1>
+			<h2 style="color:white; font-size:25px; text-align:center">It is safe and it will always be!</h2>
+
+			<form>
+				<fieldset class="not-important">
+					<legend>None-Important Information</legend>
+					<input type="text" placeholder="First name" class="input fst"/>
+					<input type="text" placeholder="Last name" class="input"/>
+					<input type="text" placeholder="Your email" class="input fst"/>
+					<input type="text" placeholder="Phone number" class="input"/>
+					<input type="text" placeholder="Your password" class="input fst"/>
+					<input type="text" placeholder="Website" class="input"/>
+
+					<label class="labelDesc">Birthday</label>
+					<input type="date" name="bday" class="input date"/>
+					<input type="radio" name="gender"  style="margin-top:10px; margin-left: 14px;"/> <label class="rb" style="font-size:15px;">Female</label>
+					<input type="radio" name="gender"/> <label class="rb" style="font-size:14px;">Male</label>
+					<input type="radio" name="gender"/> <label class="rb" style="font-size:14px;">Other</label>
+
+				</fieldset>
+
+
+				<fieldset class="important">
+					<legend>Important Information *required</legend>					
+					<select class="input dropbox" style="margin-left: 15px;">
+						<option value="enter" default="default">Country</option>
+						<option value="Bulgaria">Bulgaria</option>
+						<option value="Japan">Japan</option>
+						<option value="USA">USA</option>
+					</select> 
+
+					<input type="text" placeholder="Vilage" class="input"/>
+					<input type="text" placeholder="District" class="input"/>
+					<input type="text" placeholder="Street" class="input fst"/>
+					<input type="text" placeholder="Nr" class="input" style="width: 100px;"/>
+					<input type="text" placeholder="Floor" class="input" style="width: 80px;"/>
+					<input type="text" placeholder="Ap nr" class="input" style="width: 80px;"/>
+					<label class="labelDesc">Door Color</label>
+
+					<input type="color" class="input fst" style="padding:0px;" value="#FF80C0"/>
+					<input type="text" placeholder="Water Meter Nr" class="input"/>
+
+					<select class="input dropbox">
+						<option value="enter" default="default">Aunt Panties' Size</option>
+						<option value="Bulgaria">5</option>
+						<option value="Bulgaria">7</option>
+						<option value="Bulgaria">10</option>
+						<option value="Japan">11</option>
+						<option value="USA">God damn...</option>
+					</select> 
+					<label class="labelDesc">More Personal Information</label>
+					<textarea placeholder="Give us more information!!!!" class="input fst" style="width:430px; height:65px;"></textarea>
+				</fieldset>
+
+				<br/>
+				<button type="reset" value="Clear Form" class="clearBtn formBtns">Clear Form</button>
+				<button type="reset" value="Register" class="registerBtn formBtns">Register</button>
+
+			</form>
+		</div>
+	</body>
+</html>

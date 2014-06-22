@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<title>Flight Order</title>
+
+		<style type="text/css">
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+
+			#flightOrder{
+				color: black;
+				background: #FFC0CB;
+				width: 540px;
+				height: 385px;
+				margin-left: 10px;
+				margin-top: 10px;
+			}
+
+			.heading{
+				font-style: italic;
+				font-size: 38px;
+				font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+				text-align: center;
+				margin-bottom: 2px;
+			}
+
+			.detailLabel{
+				width: 250px;
+				display: inline-block;
+				margin-left: 15px;
+				font-style: italic;
+				font-size: 17px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+
+			.dropbox{
+				width: 250px;
+				height: 30px;
+				margin-left: 13px;
+				display: inline-block;
+				font-size: 20px;
+			}
+
+			.directs{
+				font-style: italic;
+				font-size: 17px;
+				margin-left: 7px;
+			}
+
+			#directsCheckBox{
+				margin-top: 5px;
+				margin-left: 280px;
+				margin-bottom: 10px;
+			}
+
+			.smallBoxes{
+				width:80px;
+				height: 30px;
+				display: inline-block;				
+				font-size: 20px;
+				margin-left: 1px;
+			}
+
+			.numChooser{
+				width:80px;
+				display: inline-block;
+				font-style: italic;
+				font-size: 17px;
+				text-align: left;
+			}
+
+			#searchBtn{
+				width: 250px;
+				height: 40px;
+				margin-left: 280px;
+				margin-top: 10px;
+				display: inline-block;
+				font-size: 20px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<form id="flightOrder">
+			<h1 class="heading">FLIGHT ORDER</h1>
+			<span class="detailLabel">From</span> <span class="detailLabel">To</span>
+			<select class="dropbox">
+				<option value="enter" default="default">enter a city</option>
+				<option value="Sofia">Sofia</option>
+				<option value="Varna">Varna</option>
+				<option value="Plovdiv">Plovdiv</option>
+			</select> 
+
+			<select class="dropbox">
+				<option value="enter" default="default">enter a city</option>
+				<option value="Sofia">Sofia</option>
+				<option value="Varna">Varna</option>
+				<option value="Plovdiv">Plovdiv</option>
+			</select>
+			<input type="checkbox" id="directsCheckBox"/><label for="directsCheckBox" class="directs">Prefer directs</label>
+
+			<span class="detailLabel">Departure Date</span> <span class="detailLabel">Time Interval</span>
+			<input type="text" value="09.06.2014" class="dropbox" style="font-family: 'Andale Mono', AndaleMono, monospace;"/>
+			<input type="text" value="00:20" class="dropbox" style="font-family: 'Andale Mono', AndaleMono, monospace; width:125px; "/>
+			<input type="text" value="05:00" class="dropbox" style="font-family: 'Andale Mono', AndaleMono, monospace; width:125px;margin:0px;"/>
+
+			<span class="detailLabel">Return Date</span> <span class="detailLabel">Time Interval</span>
+			<input type="text" value="13.06.2014" class="dropbox" style="font-family: 'Andale Mono', AndaleMono, monospace;"/>
+			<input type="text" value="16:00" class="dropbox" style="font-family: 'Andale Mono', AndaleMono, monospace; width:125px; "/>
+			<input type="text" value="22:00" class="dropbox" style="font-family: 'Andale Mono', AndaleMono, monospace; width:125px;margin:0px;"/>
+
+
+			<span class="numChooser" style="margin-left:15px;">12+</span> <span class="numChooser">2-12</span> <span class="numChooser">0-2</span> <span class="detailLabel" style=" width:100px;">Time Interval</span><br />
+			<input type="number" min="12" step="1" value="0" class="smallBoxes" style="margin-left: 13px;"/>
+			<input type="number" min="2" max="12" step="1" value="0" class="smallBoxes"/>
+			<input type="number" min="0" max="2" step="1" value="0" class="smallBoxes"/>
+			<select class="dropbox">
+				<option value="enter" default="default">Economy</option>
+				<option value="Sofia">Normal</option>
+				<option value="Varna">VIP</option>
+				<option value="Plovdiv">Other</option>
+			</select> 
+
+			<input type="submit" value="Search" id="searchBtn"/>
+
+
+
+		</form>
+	</body>
+</html>

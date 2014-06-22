@@ -1,0 +1,154 @@
+<html>
+	<head>
+		<title>Simple Form</title>
+
+		<style type="text/css">
+
+			.formsHolder{
+				width:775px;
+				height: 422px;
+				background: #EEEEEE;
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.enterGreet, .info{
+				padding: 10px;
+				font-family: 'PT Sans', Tahoma, sans-serif;
+			}
+
+			.info{
+				font-size: 14px;
+				color: #5A5A5A;
+			}
+
+			.enterGreet{ color: #234465;}
+
+			.squareForm{
+				width: 370px;
+				height: 300px;
+				display: inline-block;
+				overflow: hidden;
+				margin-top: 10px;
+			}
+
+			.loginForm{ background: #234465; }
+
+			.squareForm > p{
+				font-size: 18px;
+				font-family: 'PT Sans', Tahoma, sans-serif;
+				color: white;
+				font-weight: bold;
+				padding: 15px;
+			}
+
+			.input{
+				width: 340px;
+				height: 43px;
+				margin-left: 15px;
+				font-size: 14px;
+				font-family: 'PT Sans', Tahoma, sans-serif;
+				padding-left: 10px;
+				margin-bottom: 10px;
+			}
+
+			.controls{
+				width: 100%;
+				color: white;
+			}
+
+			#remember{
+				zoom:1.5;
+				margin-left: 10px;
+			}
+
+			.label{
+				vertical-align: top;
+				font-size: 13px;
+				font-family: 'PT Sans', Tahoma, sans-serif;
+			}
+
+			#loginBtn{
+				background: none;
+				border: 2px solid #FF9C00;
+				width: 140px;
+				height: 37px;
+				font-size: 17px;
+				font-family: 'PT Sans', Tahoma, sans-serif;
+				color: white;
+				float: right;
+				margin-right: 15px;
+			}
+
+			.forgotPassword{
+				text-align: right;
+				color: white;
+				text-decoration: underline;
+				font-size: 15px;
+				font-family: 'PT Sans', Tahoma, sans-serif;
+				display: block;
+				margin-top: 5px;
+				margin-right: 27px;
+			}
+
+			#registerBtn{
+				background: none;
+				border: 2px solid #234465;
+				width: 170px;
+				height: 36px;
+				font-size: 17px;
+				font-family: 'PT Sans', Tahoma, sans-serif;
+				color: #234465;
+				float: right;
+				margin-right: 15px;
+			}
+
+			#registerBtn:hover{
+				background: #234465;
+				color:white;
+				cursor: pointer;
+			}
+
+			#loginBtn:hover{
+				background: #FF9C00;
+				color:#234465;
+				cursor: pointer;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<div class="formsHolder">
+			<h2 class="enterGreet">Enter the system</h2>
+			<p class="info">It is necessary to login in Your account in order to sign in for a cource.</p>
+
+			<form class="squareForm registerForm">
+				<p style="color:#234465;"> <span style="color:#666666;">ARE YOU NEW?</span> REGISTER</p>
+				<input type="text" placeholder="User name" class="input reg"/>
+				<input type="text" placeholder="Email" class="input reg"/>
+				<input type="password" placeholder="Password" class="input reg"/>
+				<input type="password" placeholder="Confirm Password" class="input reg"/>
+				<div class="controls">
+					<input type="submit" id="registerBtn" value="Register"/>
+					<div style="clear: both;"></div>
+				</div>
+			</form>
+
+			<form class="squareForm loginForm">
+				<p>ALREADY A STUDENT? LOGIN</p>
+				<input type="text" placeholder="User name" class="input"/>
+				<input type="password" placeholder="Password" class="input"/>
+				<div class="controls">
+					<input type="checkbox" id="remember"/> <label for="remember" class="label">Remember me?</label>
+					<input type="submit" id="loginBtn" value="Login"/>
+					<div style="clear: both;"></div>
+				</div>
+				<label class="forgotPassword">Forgot Password</label>
+			</form>
+		</div>
+	</body>
+</html>
