@@ -1,0 +1,315 @@
+<html>
+	<head>
+		<title>BGJUG WebPage</title>
+		<style type="text/css">
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+
+			@font-face {
+				font-family: "Droid Sans";
+				font-style: normal;
+				font-weight: 400;
+				src: local("Droid Sans"), local("DroidSans"), url("http://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff") format("woff");
+			}
+
+			#wrapper{
+				width: 1040px;
+				margin: 0px auto;
+				
+			}
+
+				#wrapper > header > h1{
+					font-family:"Droid Sans","Lucida Grande",Tahoma,sans-serif;
+					font-weight: lighter;
+					font-size: 27px;
+					padding-left: 20px;
+					padding-top: 17px;
+				}
+
+			nav{
+				width: 100%;
+				height: 33px;
+				margin-top: 60px;
+				border-bottom: 1px solid #AFAFAF; 
+			}
+
+				nav > ul{
+					display: inline-block;
+					list-style-type: none;
+				}
+
+				nav > ul > li{
+					display: inline-block;
+					padding-left: 5px;
+					width: 125px;
+					font-size: 13px;
+					color: #777777;
+				}
+
+				nav > #searchBox{
+					float: right;
+					width: 210px;
+					height: 30px;
+					background: #F7F7F7;
+					border: 1px solid #dedede; 
+					padding-left: 6px;
+					background: url('search-btn.png') no-repeat scroll 185px 5px;
+				}
+
+			#leftSideBar{
+				width: 180px;
+				float: left;
+				display: inline-block;
+				
+			}
+
+				#leftSideBar > span, #rightSideBar > span{
+					font-family:"Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+					font-size: .9em;
+					border-bottom: 1px solid #AFAFAF;
+					width: 100%;
+					display: inline-block;
+					color: #AFAFAF;					
+				}
+
+				#leftSideBar > ul{
+					list-style-type: none;
+				}
+
+				#leftSideBar > ul > li  {
+					padding-left: 7px;
+					padding-top: 5px;
+				}
+
+
+				#leftSideBar > ul > li > a{
+					text-decoration: none;
+					color: #225E9B;
+					font-size: 14px;
+					font-family:"Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+				}
+
+				#leftSideBar > ul > li > a:hover{
+					text-decoration: underline;
+				}
+
+				#wrapper > main{
+					clear: both;
+					display: inline-block;
+					width: 600px;
+					margin-left: 30px;
+					margin-right: 30px;
+				}
+
+				#wrapper > #rightSideBar{
+					width: 180px;
+					float: right;
+					display: inline-block;
+
+				}
+
+				#wrapper > #rightSideBar > select{
+					width: 90px;
+					height: 20px;
+					margin-top: 10px;
+					margin-bottom: 15px;
+
+				}
+
+		main > article > header{
+			font-size: 28px;
+			font-weight: lighter;
+			font-family:"Droid Sans","Lucida Grande",Tahoma,sans-serif;
+		}
+
+			main > article > header:hover{
+				text-decoration: underline;
+				cursor: pointer;
+			}
+
+			main > article > span{
+				color: #777777;
+				font-size: 12px;
+				font-family:"Droid Sans","Lucida Grande",Tahoma,sans-serif;
+			}
+
+			main > article > span > .diff{
+				color: #000000;
+				border-bottom: 1px solid #777777;
+			}
+
+			main > article > .content{
+				color: #000000;
+				font-size: 16px;
+				line-height: 23px;
+				font-family:"Droid Sans","Lucida Grande",Tahoma,sans-serif;
+				margin-top: 30px;
+			}
+
+		.continueReading{
+			color: #225E9B;
+			margin-top: 20px;
+			display: inline-block;
+			font-size: 15px;
+			font-family:"Droid Sans","Lucida Grande",Tahoma,sans-serif;
+		}
+
+		.continueReading:hover{
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		footer{
+			clear: both;
+			background: #000000;
+			width: 100%;
+			margin-top: 30px;			
+			vertical-align: middle;
+		}
+
+			footer > #footerWrap{
+				width: 1040px;
+				margin: 0px auto;
+				padding-top: 20px;
+				display: table;
+				padding-bottom: 30px;
+			}
+
+			footer > #footerWrap > ul{
+				width: 50px;
+				display: table-cell;
+				list-style-type: none;
+			}
+
+			footer > #footerWrap > ul > li{
+				color:white;
+				font-size: 20px;
+			}
+
+			footer > #footerWrap > section{
+				display: table-cell;
+				color: white;
+				width: 150px;
+				font-family:"Droid Sans","Lucida Grande",Tahoma,sans-serif;
+			}
+
+				footer > #footerWrap > section > h1{
+					font-size: 14px;
+					font-weight: lighter;
+				}
+
+				footer > #footerWrap > section > span{
+					font-size: 15px;
+					color: #777777;
+				}
+
+		</style>
+	</head>
+	<body>
+
+		<div id="wrapper">
+			<header><h1>BGJUG - Bulgarian Java User Group</h1></header>
+			<nav>
+				<ul>
+					<li>ABOUT</li>
+					<li>EVENTS</li>
+					<li>CONTACTS</li>
+				</ul>
+				<input type="text" placeholder="Search" id="searchBox"/>
+			</nav>
+
+			<aside id="leftSideBar">
+				<span style="margin-top: 50px;">RECENT POSTS</span>
+				 <ul>
+		            <li><a href="">An Architecture for E-Voting</a></li>
+		            <li><a href="">Integration Tests for External Services</a></li>
+		            <li><a href="">Algorithmic Music Influenced by Tweets</a></li>
+		            <li><a href="">The Low Quality of Scientific Code</a></li>
+		            <li><a href="">Development "Methodologies"</a></li>
+	        	</ul>
+			</aside>
+
+			<main>
+				
+				<article style="margin-top:30px;">
+					<header>An Architecture for E-Voting</header>
+					<span>by <span class="diff">BOZHO</span> on <span class="diff">MAY</span> 27, 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff">LEAVE A COMMENT</span></span>
+					<p class="content">
+						E-voting is a hot topic in my country, and has been discussed a lot everywhere. Since we are already using the internet and touch-screen technologies in our everyday lives, why not apply that to voting? And not for the sake of technology itself, but in order to prevent technical mistakes and election fraud, and make [...]
+					</p>
+					<span class="continueReading">Continue Reading &#x2192; </span>
+				</article>
+
+				<article style="margin-top:30px;">
+					<header>Integration Tests for External Services</header>
+					<span>by <span class="diff">BOZHO</span> on <span class="diff">MAY</span> 27, 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff">LEAVE A COMMENT</span></span>
+					<p class="content">
+						Our systems often depend on 3rd party services (They may even be services internal to the company that we have no control on). Such services include Social Networks exposing APIs, SaaS with APIs like Salesforce, Authentication providers, or any system that our system communicates with, but is outside our product lifecycle. In regular integration tests, [...]
+					</p>
+					<span class="continueReading">Continue Reading &#x2192;</span>
+				</article>
+
+				<article style="margin-top:30px;">
+					<header>Development "Methodologies"</header>
+					<span>by <span class="diff">BOZHO</span> on <span class="diff">MAY</span> 27, 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff">LEAVE A COMMENT</span></span>
+					<p class="content">
+						Below are several development "methodologies" that are popular and even industry-standard: Hype-Driven Development - you are either a startup, or you are given the freedom to choose whatever technology you like for your new cool-cutting-edge-distrupting-innovative-did-I-say-cool project. What technologies to use? The recently overhyped ones, of course. Let's do it in Node.js, and you have to [...]
+					</p>
+					<span class="continueReading">Continue Reading &#x2192;</span>
+				</article>
+
+				<div style="width:100%; border-top:1px solid #777777; margin-top:30px; margin-bottom:30px;"></div>
+				<span class="continueReading">&#x2190; Previous Entries</span>
+			</main>
+
+			<aside id="rightSideBar">
+				<span style="margin-top: 50px;">LANGUAGE</span>
+				<select>
+					<option value="Bulgarian">Bulgarian</option>
+					<option value="English">English</option>
+					<option value="Spanish">Spanish</option>
+					<option value="Klingon">Klingon</option>
+				</select> 
+				<span>BLOGROLL</span>
+			</aside>
+		</div>
+
+		<footer>
+
+			<div id="footerWrap">
+				<span style="display:table-cell; width:100px; color:white; font-size:25px;">BGJUG - Java Bulgarian User Group</span>
+
+				<ul>
+					<li style="font-size:16px;"> PAGES</li>
+					<li>&nbsp;&nbsp;&nbsp;About</li>
+					<li>&nbsp;&nbsp;&nbsp;Events</li>
+					<li>&nbsp;&nbsp;&nbsp;Contacts</li>
+				</ul>
+
+				<section>
+					<header>THE LATEST</header>
+					<h1>An Architecture for E-Voting</h1>
+					<span>E-voting is a hot topic in my country,<br/> and has been discussed [...]</span>
+				</section>
+
+				<section>
+					<header>MORE</header>
+					<span>Thanks for dropping by! <br/>Feel free to join the <br/>discussion by leaving<br/>comments, and stay <br/>updated by subscribing to<br/>the <span style="color:white">RSS feed</span>.</span>
+				</section>
+
+				<span style="display:table-cell; width:100px; color:#777777; font-size:15px;">&#169; 2011 BGJUG - Java <br/>Bulgarian User Group</span>
+
+
+			</div>
+
+
+
+			
+		</footer>
+
+
+	</body>
+</html>

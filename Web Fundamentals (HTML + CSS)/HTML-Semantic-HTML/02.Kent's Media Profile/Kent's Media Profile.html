@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Kent's Media Profile</title>
+	</head>
+
+	<style type="text/css">
+
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		#wrapper{
+			width: 1105px;
+			height: 382px;
+			background: #FFC0CB;
+			border-radius: 10px;
+			margin: 10px 10px;
+
+		}
+		#wrapper > h1{
+			font-family: tahoma;
+			text-align: center;
+			padding-top: 25px;
+			font-size: 31px;
+		}
+
+		#wrapper > section{
+			margin-left: 30px;
+			display: inline-block;
+		}
+
+		#wrapper > section > h2, #wrapper > section > figure > figcaption{
+			font-family: tahoma;
+			font-weight: lighter;
+			font-size: 20px;
+		}
+
+		#wrapper > section > figure > #profilePic {
+			width: 240px;
+		}
+
+		#wrapper > section > meter{
+			width: 200px;
+			height: 25px;
+		}
+
+		#wrapper > section > audio{
+			margin-top: 10px;
+		}
+
+	</style>
+
+	<body>
+		<div id="wrapper">
+			<h1>Profile</h1>
+ 
+			<section style="width: 240px;">
+				<h2>User: Kent</h2>
+
+				<figure>		
+					<img src="kent.jpg" id="profilePic"/>
+					<figcaption>Profile completed 60%</figcaption>
+				</figure>
+				<meter min="0" low="10" optimum="50" high="90" max="100" value="65"></meter>
+			</section>
+
+			<section style="width: 300px;">
+				<h2>Uploaded audio files</h2>
+				<div style="width:100%; height:160px;display:table-cell; vertical-align:middle;background:black">
+					<audio controls>
+						<source src="pew.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+				</div>				
+				<audio controls>
+					<source src="joke.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+				<audio controls>
+					<source src="snort.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+				<audio controls>
+					<source src="board.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+			</section>
+
+			<section style="width:442px;">
+				<h2>Uploaded video files</h2>
+				<iframe width="452" height="280" src="https://www.youtube.com/embed/NisCkxU544c" frameborder="0" allowfullscreen></iframe>
+			</section>
+		</div>
+	</body>
+</html>

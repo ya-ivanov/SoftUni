@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Magic Car gallery</title>
+
+
+		<style type="text/css">
+			section{
+				width: 535px;
+				height: 240px;
+				border-radius: 10px;
+				background: black;
+			}
+
+			section > header > h1{
+				font-family: tahoma;
+				color: #E7B801;
+				text-align: center;
+				font-size: 35px;
+				padding-top: 10px;
+			}
+
+			section > iframe{
+				overflow: hidden;
+				width: 180px;
+				height: 140px;
+				margin-left: 20px;
+				display: inline-block;
+				border: 2px solid #E7B801;
+			}
+
+			section > ul{
+				display: inline-block;
+				list-style-type: none;
+				position: absolute;
+				margin-top: -5px;
+
+			}
+
+			section > ul > li > a{
+				color: white;
+				font-family: tahoma;
+				font-size: 25px;
+				text-decoration: none;
+				font-style: italic;
+			}
+		</style>
+
+
+	</head>
+
+
+
+
+	<body>
+	    <section>
+	    	<header>
+	       		<h1>Magic Car Gallery</h1>
+	   		</header>
+
+	        <iframe name="cars-frame" width="250" noresize="noresize" height="170" src="mustang.jpg" scrolling="no"></iframe>
+	        <ul>
+	            <li><a href="mustang.jpg" target="cars-frame">Ford Mustang</a></li>
+	            <li><a href="m5.jpg" target="cars-frame">BMW M5</a></li>
+	            <li><a href="panamera.jpg" target="cars-frame">Porshe Panamera</a></li>
+	            <li><a href="audi.jpg" target="cars-frame">Audi RS5</a></li>
+	            <li><a href="merc.jpg" target="cars-frame">Mercedes-Benz C63 AMG</a></li>
+	        </ul>
+	    </section>
+	</body>
+</html>
