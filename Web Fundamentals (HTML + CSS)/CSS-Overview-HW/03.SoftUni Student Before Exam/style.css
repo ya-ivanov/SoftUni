@@ -1,0 +1,64 @@
+#head{
+	width: 496px;
+	height:496px;
+	border: 2px solid black;
+	border-radius: 360px;
+	background: #FFFF00;
+}
+
+#head > .eyes{
+	width: 100px;
+	height:100px;
+	border: 3px solid black;
+	background: #FFFFFF;
+	border-radius: 360px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	display: inline-block;
+}
+
+#head > .eyes > .eyeball{
+	width: 32px;
+	height: 32px;
+	border-radius: 360px;
+	background: #000000;
+}
+
+#head > .eyes > .first{
+	margin-top: 47px;
+	margin-left: 57px;
+}
+
+#nose{
+	width: 75px;
+	height:75px;
+	border: 3px solid black;
+	background: #FF0000;
+	border-radius: 360px;
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 206px;
+}
+
+#mouth{
+	width: 245px;
+	height: 90px;
+	border: 3px solid black;
+	border-radius: 360px;
+	position: absolute;
+	background: white;
+	margin-top: 320px;
+	margin-left: 123px;
+}
+
+.tooth{
+	margin-top: -2px;
+	width: 46px;
+	height: 47px;
+	border: 3px solid black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: inline-block;
+	position: absolute;
+}
