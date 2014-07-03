@@ -1,0 +1,92 @@
+#container-main{
+	margin-left: 30px;
+	margin-top: 30px;
+	border-right:12px solid #008000; 
+	border-top: 7px dotted #FFFF00;
+	border-bottom: 7px double #4646FF;
+	border-left: 7px dashed #FF0000;
+	width: 630px;
+}
+
+#container-main > h1{
+	font-size: 40px;
+	text-align: center;
+	font-weight: normal;
+	text-shadow: 7px 7px 12px #404040;
+}
+
+#container  > h2{
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	text-shadow: 5px 5px 10px #404040;
+	padding-top: 20px;
+}
+
+#container-main > #container > form > .notButton{
+	padding: 2px 10px;
+	width: auto;
+	font-size: 15px;
+	font-weight: bold;
+	background: #D8921A;
+	border-top: 3px solid #EC9C0D;
+	border-bottom: 3px solid #AD7206;
+	border-right: 3px solid #AD7206;
+	border-left: 3px solid #EC9C0D;
+	
+}
+
+#container{
+	    box-shadow:
+            0 0 0 4px #FF0000,
+            0 0 0 9px #FFFF00,
+            0 0 0 13px #127C30,
+            0 0 0 17px #1D1BFF;
+        width: 550px;
+        height: 130px;
+        border-radius: 360px;
+        margin: 0px auto;
+        margin-bottom: 40px;
+}
+
+#small-bubble{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: rgba(104,104,104,0.7);
+	border-radius: 360px;
+	top: -140px;
+	left: 490px;
+	border: 4px dashed white;
+	border-radius: 360px;
+}
+
+#middle-bubble {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background: rgba(104,104,104,0.7);
+	top: -215px;
+	left: 550px;
+	border: 4px dashed white;
+	border-radius: 360px;
+
+}
+
+#big-bubble {
+	position: relative;
+	width: 130px;
+	height: 50px;
+	border-radius: 40px;
+	background: rgba(104,104,104,0.7);
+	top: -350px;
+	left: 620px;
+	padding-top: 10px;
+	color: white;
+	font-size: 19px;
+	padding-top: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: 4px dashed white;
+	border-radius: 360px;
+}
