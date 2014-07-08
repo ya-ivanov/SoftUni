@@ -1,0 +1,120 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	background: #EEEEEE;
+}
+
+#wrapper{
+	width: 1150px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+#wrapper > h2{
+	color:#234465;
+	font-weight: normal;
+	text-align: left;
+}
+
+#wrapper > section{
+	display: inline-block;
+	margin-top: 20px;
+	width: 310px;
+	float: left;
+	height: 395px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 0 0 4px #525952;
+	margin-right: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+#wrapper > section > header{
+	text-transform: uppercase;
+	color:#234465;
+	margin-bottom: 25px;
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#wrapper > section > .date{
+	float: right;
+}
+
+#wrapper > section > .author{
+	clear: both;
+	color: #494949;
+	text-align: left;
+}
+
+#wrapper > section > .description{
+	text-align: left;
+	color:#5A5A5A;
+		margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#wrapper > section > hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border:1px solid #dedede;
+}
+
+#wrapper > section > .tags{
+	text-align: left;
+	color:#999;
+	margin-top: 45px;
+	margin-bottom: 10px;
+}
+
+#wrapper > section > .tags:hover, #wrapper > section > header:hover, #wrapper > section > .description:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#wrapper > section  .tagsTitle{
+	font-weight: bold;
+	color:#5A5A5A;
+}
+
+#wrapper > section > .thumbnail{
+	width: 95%;
+	height: auto;
+}
+
+#wrapper > nav{
+	clear: both;
+	float: left;
+	margin-top: 30px;
+}
+
+#wrapper > nav > ul > li{
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	color:white;
+	background: #4CA0DB;
+	margin-right: -2px;
+}
+
+#wrapper > nav > ul > li:nth-child(1){
+	background: #FF9C00;
+}
+
+#wrapper > nav > ul > li:hover{
+	background: #88C3EC;
+	cursor: pointer;
+	outline: #357EBD solid 1px;
+}
+
+
+

@@ -1,0 +1,223 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: #101415;
+	font-family: Tahoma, Helvetica, Ariel, sans-serif;
+}
+
+#wrapper{
+	width:900px;
+	margin-bottom: 20px;
+	margin: 0px auto;
+	background: white;
+	margin-bottom: 40px;
+}
+
+#wrapper > header{
+	width: 100%;
+	height: 270px;
+}
+
+#wrapper > header > h1{
+	position: absolute;
+	margin-top: -75px;
+	margin-left: 495px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+#wrapper > nav{
+	display: block;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+	height: 48px;
+	border: 1px solid white;
+}
+
+#wrapper > nav ul{
+	list-style-type: none;
+	height: 100%;
+	overflow: hidden;
+}
+
+#wrapper > nav ul > li{
+	display: inline-block;
+	padding-top:10px;
+	padding-top:10px;
+	padding-left: 28px;
+	padding-right: 28px;
+	color:#7A6963;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-right: 1px solid white;
+	height: 100%;
+	font-family: sans-serif;
+	line-height: 30px;
+}
+
+#wrapper > nav ul > li:nth-child(1){
+	background: #BDBDBD;
+	color: white;
+}
+
+#wrapper > nav ul > li:hover{
+	background: #BDBDBD;
+	color: white;
+	cursor: pointer;
+}
+
+#wrapper main{
+	width: 580px;
+	height: 100%;
+	margin-left: 42px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+#wrapper main > header{
+	width: 100%;
+	height: 180px;
+	border: 1px solid #E8E8E8; 
+	border-radius: 10px;
+}
+
+#wrapper main > header > h1{
+	text-transform: uppercase;
+	color: #84BE19;
+	font-size: 24px;
+	font-family: sans-serif;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+
+#wrapper main > header > p{
+	font-size: 12px;
+	font-family: sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+#wrapper main > section{
+	width: 100%;
+	margin-top: 20px;
+	height: 495px;
+	border: 1px solid #E8E8E8; 
+	border-radius: 10px;
+}
+
+#wrapper main > section > h1{
+	color: #84BE19;
+	font-size: 24px;
+	font-family: sans-serif;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+
+#wrapper main > section > section {
+	margin-bottom: 10px;
+}
+
+#wrapper main > section > section > img{
+	float: left;
+	height: 125px;
+	margin-left: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#wrapper main > section > section > h5{
+	font-size: 12px;	
+}
+
+
+#wrapper main > section > section > p{
+	font-size: 13px;	
+	padding-top: 20px;
+	padding-right: 20px;
+	
+}
+
+#wrapper aside{
+	display: inline-block;
+	width: 200px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+#wrapper aside .news, #wrapper aside .messages{
+	width: 200px;
+	height: 240px;
+	background: #EEEEEE;
+	border: 1px solid #E8E8E8; 
+	border-radius: 10px;
+}
+
+#wrapper aside .news h1, #wrapper aside .messages h1{
+	text-transform: uppercase;
+	color: #84BE19;
+	font-size: 24px;
+	font-family: sans-serif;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+
+#wrapper aside .news h5, #wrapper aside .messages h5{
+	font-size: 12px;	
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+#wrapper aside .news p, #wrapper aside .messages p{
+	font-size: 13px;
+	margin-left: 20px;	
+}
+
+#wrapper aside .news .more, #wrapper aside .messages .more{
+	text-decoration: underline;
+	color: #84BE19;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#wrapper aside .messages p{
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#wrapper footer{
+	width: 100%;
+	height: 90px;
+	background: #9ED53C;
+	margin-top: 40px;
+
+}
+
+#wrapper footer > span{
+	width: 460px;
+	height: 100%;
+	margin: 0px auto;
+	display: block;
+	line-height: 80px;
+	font-size: 15px;
+}
+
+#wrapper footer > span > span{
+	text-decoration: underline;
+	cursor: pointer;
+}
