@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+input[type="text"]{
+	width: 180px;
+	height: 35px;
+	color:orange;
+	background: #234465;
+	display: block;
+	padding-left: 10px;
+}
+
+input[type="button"]{
+	width: 192px;
+	height: 35px;
+	color:black;
+	background: white;
+	display: block;
+	border: 1px solid black;
+}
+
+#result{
+	font-size: 17px;
+	font-weight: bold;
+}
