@@ -1,0 +1,19 @@
+.property{
+    width:200px;
+    background: orange;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align:left;
+    box-shadow: 1px 3px 5px 6px #ccc;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: 5px;
+}
