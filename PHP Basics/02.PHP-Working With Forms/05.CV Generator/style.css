@@ -1,0 +1,26 @@
+form{
+    width: 650px;
+}
+
+p{
+    color: red;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    text-align:left;
+    width: 550px;
+    box-shadow: 1px 3px 5px 6px #ccc;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table th{
+    text-align: center;
+}
