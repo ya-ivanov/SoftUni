@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\02.StaticMembersAndNamespaces\06.Namespaces\bin\Debug\06.Namespaces.exe.config
+C:\Users\yavko\Desktop\SoftUni\02.StaticMembersAndNamespaces\06.Namespaces\bin\Debug\06.Namespaces.exe
+C:\Users\yavko\Desktop\SoftUni\02.StaticMembersAndNamespaces\06.Namespaces\bin\Debug\06.Namespaces.pdb
+C:\Users\yavko\Desktop\SoftUni\02.StaticMembersAndNamespaces\06.Namespaces\obj\Debug\06.Namespaces.exe
+C:\Users\yavko\Desktop\SoftUni\02.StaticMembersAndNamespaces\06.Namespaces\obj\Debug\06.Namespaces.pdb
+C:\Users\yavko\Desktop\SoftUni\02.StaticMembersAndNamespaces\06.Namespaces\obj\Debug\06.Namespaces.csprojResolveAssemblyReference.cache
