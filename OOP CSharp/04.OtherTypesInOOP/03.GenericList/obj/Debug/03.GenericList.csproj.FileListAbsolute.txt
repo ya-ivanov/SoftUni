@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\04.OtherTypesInOOP\03.GenericList\bin\Debug\03.GenericList.exe.config
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\04.OtherTypesInOOP\03.GenericList\bin\Debug\03.GenericList.exe
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\04.OtherTypesInOOP\03.GenericList\bin\Debug\03.GenericList.pdb
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\04.OtherTypesInOOP\03.GenericList\obj\Debug\03.GenericList.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\04.OtherTypesInOOP\03.GenericList\obj\Debug\03.GenericList.exe
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\04.OtherTypesInOOP\03.GenericList\obj\Debug\03.GenericList.pdb
