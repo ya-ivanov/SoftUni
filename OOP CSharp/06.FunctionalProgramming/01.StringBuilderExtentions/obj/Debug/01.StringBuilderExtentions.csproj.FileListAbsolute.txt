@@ -1,6 +1,0 @@
-C:\Users\yavko\Desktop\SoftUni\OOP CSharp\06.FunctionalProgramming\01.StringBuilderExtentions\bin\Debug\01.StringBuilderExtentions.exe.config
-C:\Users\yavko\Desktop\SoftUni\OOP CSharp\06.FunctionalProgramming\01.StringBuilderExtentions\bin\Debug\01.StringBuilderExtentions.exe
-C:\Users\yavko\Desktop\SoftUni\OOP CSharp\06.FunctionalProgramming\01.StringBuilderExtentions\bin\Debug\01.StringBuilderExtentions.pdb
-C:\Users\yavko\Desktop\SoftUni\OOP CSharp\06.FunctionalProgramming\01.StringBuilderExtentions\obj\Debug\01.StringBuilderExtentions.csprojResolveAssemblyReference.cache
-C:\Users\yavko\Desktop\SoftUni\OOP CSharp\06.FunctionalProgramming\01.StringBuilderExtentions\obj\Debug\01.StringBuilderExtentions.exe
-C:\Users\yavko\Desktop\SoftUni\OOP CSharp\06.FunctionalProgramming\01.StringBuilderExtentions\obj\Debug\01.StringBuilderExtentions.pdb
