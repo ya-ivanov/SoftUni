@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Shapes", "01.Shapes\01.Shapes.csproj", "{F168DD08-796D-4884-8E2E-20BB17080286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BankOfKurtovoKonare", "02.BankOfKurtovoKonare\02.BankOfKurtovoKonare.csproj", "{774F7041-947D-44B8-BCD0-13736DD38D08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F168DD08-796D-4884-8E2E-20BB17080286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F168DD08-796D-4884-8E2E-20BB17080286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F168DD08-796D-4884-8E2E-20BB17080286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F168DD08-796D-4884-8E2E-20BB17080286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774F7041-947D-44B8-BCD0-13736DD38D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774F7041-947D-44B8-BCD0-13736DD38D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774F7041-947D-44B8-BCD0-13736DD38D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774F7041-947D-44B8-BCD0-13736DD38D08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

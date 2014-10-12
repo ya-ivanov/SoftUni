@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\09.CommonTypeSystem\02.StringDisperserProgram\bin\Debug\02.StringDisperserProgram.exe.config
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\09.CommonTypeSystem\02.StringDisperserProgram\bin\Debug\02.StringDisperserProgram.exe
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\09.CommonTypeSystem\02.StringDisperserProgram\bin\Debug\02.StringDisperserProgram.pdb
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\09.CommonTypeSystem\02.StringDisperserProgram\obj\Debug\02.StringDisperserProgram.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\09.CommonTypeSystem\02.StringDisperserProgram\obj\Debug\02.StringDisperserProgram.exe
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\09.CommonTypeSystem\02.StringDisperserProgram\obj\Debug\02.StringDisperserProgram.pdb

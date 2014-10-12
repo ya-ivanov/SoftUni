@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.StringBuilderExtentions", "01.StringBuilderExtentions\01.StringBuilderExtentions.csproj", "{08A2587F-AAAD-4665-86A1-270610D37702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CustomLINQExtentions", "02.CustomLINQExtentions\02.CustomLINQExtentions.csproj", "{493CF120-74FD-4A38-867F-97E3F32FC8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.StudentsProblem", "03.StudentsProblem\03.StudentsProblem.csproj", "{EC6E86C0-56DF-4D22-BD42-E42609AB27C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A2587F-AAAD-4665-86A1-270610D37702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A2587F-AAAD-4665-86A1-270610D37702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A2587F-AAAD-4665-86A1-270610D37702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A2587F-AAAD-4665-86A1-270610D37702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493CF120-74FD-4A38-867F-97E3F32FC8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493CF120-74FD-4A38-867F-97E3F32FC8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493CF120-74FD-4A38-867F-97E3F32FC8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493CF120-74FD-4A38-867F-97E3F32FC8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6E86C0-56DF-4D22-BD42-E42609AB27C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6E86C0-56DF-4D22-BD42-E42609AB27C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6E86C0-56DF-4D22-BD42-E42609AB27C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6E86C0-56DF-4D22-BD42-E42609AB27C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

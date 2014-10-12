@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.School", "01.School\01.School.csproj", "{F1A0047A-F33F-43F3-8008-3AC015174297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.HumanStudentAndWorker", "02.HumanStudentAndWorker\02.HumanStudentAndWorker.csproj", "{864CCE04-507B-4581-B007-8D1C23348392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Animals", "Animals\03.Animals.csproj", "{A274BBDC-E779-464E-8A5F-AABA6810C0CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A0047A-F33F-43F3-8008-3AC015174297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A0047A-F33F-43F3-8008-3AC015174297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A0047A-F33F-43F3-8008-3AC015174297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A0047A-F33F-43F3-8008-3AC015174297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864CCE04-507B-4581-B007-8D1C23348392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864CCE04-507B-4581-B007-8D1C23348392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864CCE04-507B-4581-B007-8D1C23348392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864CCE04-507B-4581-B007-8D1C23348392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A274BBDC-E779-464E-8A5F-AABA6810C0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A274BBDC-E779-464E-8A5F-AABA6810C0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A274BBDC-E779-464E-8A5F-AABA6810C0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A274BBDC-E779-464E-8A5F-AABA6810C0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

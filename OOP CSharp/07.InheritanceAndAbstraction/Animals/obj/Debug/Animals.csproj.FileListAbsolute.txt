@@ -1,0 +1,6 @@
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\07.InheritanceAndAbstraction\Animals\bin\Debug\Animals.exe.config
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\07.InheritanceAndAbstraction\Animals\obj\Debug\Animals.csprojResolveAssemblyReference.cache
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\07.InheritanceAndAbstraction\Animals\bin\Debug\Animals.exe
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\07.InheritanceAndAbstraction\Animals\bin\Debug\Animals.pdb
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\07.InheritanceAndAbstraction\Animals\obj\Debug\Animals.exe
+C:\Users\yavko\Desktop\SoftUni\OOP CSharp\07.InheritanceAndAbstraction\Animals\obj\Debug\Animals.pdb
