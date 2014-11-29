@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Poll</title>
+        <script src="../jquery-2.1.1.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <section class="questionHolder">
+                <span class="questionTitle">Which one is the coolest?</span>
+                <input type="radio" name="answersQuestion1" value="batman"/><span>Batman</span> <br>
+                <input type="radio" name="answersQuestion1" value="aquaman"/><span>Aquaman</span> <br>
+                <input type="radio" name="answersQuestion1" value="theGreenGoblin"/><span>The Green Goblin</span> <br>
+                <input type="radio" name="answersQuestion1" value="spiderman"/><span>Spiderman</span> <br>
+            </section>
+            <section class="questionHolder">
+                <span class="questionTitle">Which of these awesome shows is still on the air?</span>
+                <input type="radio" name="answersQuestion2" value="stargateSG1"/><span>Stargate SG1</span> <br>
+                <input type="radio" name="answersQuestion2" value="firefly"/><span>Firefly</span> <br>
+                <input type="radio" name="answersQuestion2" value="doctorWho"/><span>Doctor Who</span> <br>
+                <input type="radio" name="answersQuestion2" value="heroes"/><span>Heroes</span> <br>
+            </section>
+            <section class="questionHolder">
+                <span class="questionTitle">Did I go to JSNext()?</span>
+                <input type="radio" name="answersQuestion3" value="what"/><span>What is that?</span> <br>
+                <input type="radio" name="answersQuestion3" value="yes"/><span>Yes</span><br>
+                <input type="radio" name="answersQuestion3" value="nobodyCaresAboutYou"/><span>Nobody cares about you</span> <br>
+                <input type="radio" name="answersQuestion3" value="no"/><span>No</span> <br>
+            </section>
+
+            <button id="submitBtn">Submit results</button>
+            <span id="results">Correct results: 0</span>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

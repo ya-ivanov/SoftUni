@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Greeting System</title>
+        <script src="../jquery-2.1.1.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <span id="localVisits"></span><br>
+            <span id="sessionVisits"></span>
+        </div>
+
+        <script>
+
+            if(localStorage.getItem("name") == null){
+                $("#localVisits")
+                        .prepend("" + "<input type='text' id='name' placeholder='Your name here...'/>" + "<button id='logIn'>Log In</button>");
+
+                $("#logIn").on('click', function(){
+                    localStorage.setItem("name", $("#name").val());
+                    localStorage.setItem("localVisits", 0);
+                    showVisitDetails();
+                    if (getCookie('sessionViews') == ''){
+                        setViewsCookie(0);
+                    }
+                });
+            } else {
+                showVisitDetails();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fading message box</title>
+        <script src="../jquery-2.1.1.min.js"></script>
+    </head>
+    <body>
+        <textarea id="message" cols="30" rows="10">В сайт за запознанства:
+Име: Tanya
+Фамилия: скрита
+Възраст: скрита
+Email: ivanova1988@abv.bg
+        </textarea><br>
+        <input type="radio" name="message-type" value="Error"/>Error<br>
+        <input type="radio" name="message-type" value="Success" checked/>Success<br>
+        <input type="radio" name="message-type" value="Alert"/>Alert<br>
+        <input type="radio" name="message-type" value="Info"/>Info<br>
+
+        <button onclick="$('#msgBox').messageBox($('#message').val(), $('input[name=message-type]:checked').val())">Show MessageBox</button>
+        <div id="msgBox" style="display: none; width: 300px; height: auto; padding: 10px; font-family: sans-serif"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
