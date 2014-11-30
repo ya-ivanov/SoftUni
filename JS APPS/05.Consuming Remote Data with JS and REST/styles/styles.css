@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+body{
+    background: #D5D5D5;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#wrapper .book{
+    background: white;
+    width: 100%;
+    box-shadow: 0 1px 2px #aaa;
+    height: 60px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+#wrapper .book:hover{
+    background: #D5F5FF;
+    cursor: pointer;
+}
+
+#wrapper .book > textarea, #wrapper .book > span{
+    display: inline-block;
+    height: 100%;
+    line-height: 60px;
+    background: none;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    resize: none;
+    overflow: hidden;
+}
+
+#wrapper .book > .bookTitle, #wrapper .book > .bookAuthor, #wrapper .book > .bookIsbn{
+    width: 300px;
+}
+
+#wrapper > #newBookBtn, #wrapper > #saveNewBook{
+    float: right;
+    width: 130px;
+    outline: none;
+    background: white;
+    border: none;
+    box-shadow: 0 1px 2px #aaa;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+#wrapper > #newBookBtn:hover, #wrapper > #saveNewBook:hover{
+    box-shadow: 0 2px 4px #aaa;
+    cursor: pointer;
+}
+
+#wrapper > #newBookBtn:active, #wrapper > #saveNewBook:active{
+    box-shadow: 0 3px 6px #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
