@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In</title>
+        <meta charset="utf-8"/>
+        <link href="//fonts.googleapis.com/css?family=Asap:700" rel="stylesheet" type="text/css">
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./styles/styles.css"/>
+        <link rel="stylesheet" href="./styles/logIn.css"/>
+        <link rel="stylesheet" href="./styles/media-queries.css"/>
+    </head>
+    <body>
+
+        <header>
+                <div id="nav-header">
+                    <div class="nav-wrapper">
+                        <h2>Topico</h2>
+                        <ul class="nav">
+                            <li>Home</li>
+                            <li>Forum</li>
+                            <li>About</li>
+                        </ul>
+                        <ul class="user-options">
+                            <li>Create account</li>
+                            <li>Log in</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="preview-header">
+                    <div>
+                        <h2>SoftUni Forum Project</h2>
+                        <span>A simple forum created with html, css, js, php & mySql, assigned from SoftUni...</span>
+                    </div>
+                </div>
+            </header>
+
+        <main id="wrapper">
+            <form method="post">
+                <div id="logIn">
+                    <fieldset>
+                        <legend>Log Into your account</legend>
+                        <input type="text" placeholder="Username"/>
+                        <input type="password" placeholder="Password"/>
+                        <input type="submit" value="Log me in" id="logInButton"/>
+                    </fieldset>
+                </div>
+            </form>
+            <span class="or-reg">You don't have an account?</span>
+            <form method="post">
+                <div id="register">
+                    <fieldset>
+                        <legend>Create a new one</legend>
+                        <input type="text" placeholder="Username"/>
+                        <input type="text" placeholder="Email address"/>
+                        <input type="password" placeholder="Password"/>
+                        <input type="password" placeholder="Repeat password"/>
+                        <input type="submit" value="Register" id="registerButton"/>
+                    </fieldset>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <span>
+                HandCrafted with
+                <span class="heart">&#9829;</span>
+                and <span class="coffee"> 🍵  </span>
+                by <a href="https://github.com/ya-ivanov" class="author-name">Y. Ivanov</a>
+            </span>
+        </footer>
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
