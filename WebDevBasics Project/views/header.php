@@ -3,13 +3,13 @@
         <div class="nav-wrapper">
             <h2>Topico</h2>
             <ul class="nav">
-                <li><a href="./index.php">Home</a></li>
+                <li><a href="./index.php?page=main">Home</a></li>
                 <li>Forum</li>
                 <li>About</li>
             </ul>
             <ul class="user-options">
                 <li>Create account</li>
-                <li><a href="./logIn.php">Log in</a></li>
+                <li><a href="./index.php?page=login">Log in</a></li>
             </ul>
         </div>
     </div>
