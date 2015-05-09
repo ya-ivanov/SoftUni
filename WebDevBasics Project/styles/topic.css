@@ -84,3 +84,32 @@
     background-color: #f5f5f5;
     cursor: pointer;
 }
+
+.topic-wrapper{
+    position: relative;
+}
+
+.vote-controls{
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    text-align: center;
+}
+
+.vote-controls input, .vote-controls span{
+    display: block;
+    width: 20px;
+    height: auto;
+
+}
+
+.vote-controls input{
+    border: none;
+    background: none;
+}
+
+.vote-controls input:hover{
+    cursor: pointer;
+    color: #ff0000;
+}
+

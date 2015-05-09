@@ -15,8 +15,9 @@
         <?php
         mb_internal_encoding("UTF-8");
         require_once('Controller/usersController.php');
-        /*require_once('Controller/postsController.php');
-        require_once('Controller/repliesController.php');*/
+        require_once('Controller/categoriesController.php');
+        require_once('Controller/topicsController.php');
+        /*require_once('Controller/repliesController.php');*/
 
         include './views/header.php';
 
@@ -29,6 +30,12 @@
                 case "topic":
                     include 'views/topic.php';
                     break;
+                case "category":
+                    include 'views/category.php';
+                    break;
+                case "allCategories":
+                    include 'views/allCategories.php';
+                    break;
                 case "register":
                     include 'views/login.php';
                     break;
@@ -39,9 +46,19 @@
                         include 'views/user.php';
                     }*/
                     break;
+                case "admin":
+                 if(!$user || !$user->isAdmin()){
+                    include 'views/main.php';
+                     var_dump($user->isAdmin());
+                 } else {
+                     include 'views/admin.php';
+
+                 }
+                break;
                 case "main":
                     include "views/main.php";
                     break;
+
                 case "logout":
                     logoutUser($userService);
                     break;

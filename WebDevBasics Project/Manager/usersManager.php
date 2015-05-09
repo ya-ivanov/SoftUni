@@ -36,6 +36,18 @@ class UsersManager{
         return null;
     }
 
+    function getUserById($id){
+        $query = $this->pdo->prepare("SELECT * FROM users WHERE id LIKE :id");
+        $query->bindParam(':id', $id);
+        $query->execute();
+
+        $data = $query->fetch();
+        if($data){
+            return new User($data);
+        }
+        return null;
+    }
+
     function getUserByEmail($email){
         $query = $this->pdo->prepare("SELECT id, username, first_name AS firstName, last_name AS lastName
                                           FROM users

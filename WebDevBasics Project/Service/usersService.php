@@ -26,6 +26,10 @@ class UsersService{
         return $this->manager->getUserByEmail($email);
     }
 
+    function getUserById($id){
+        return $this->manager->getUserById($id);
+    }
+
     function getUserBySessionKey($sessionKey){
         return $this->manager->getUserBySessionKey($sessionKey);
     }

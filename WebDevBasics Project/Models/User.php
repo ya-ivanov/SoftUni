@@ -41,8 +41,8 @@ class User {
         if(isset($userData['salt'])){
             $this->salt = $userData['salt'];
         }
-        if(isset($userData['isAdmin'])){
-            $this->isAdmin = $userData['isAdmin'];
+        if(isset($userData['is_admin'])){
+            $this->isAdmin = $userData['is_admin'];
         }
     }
 

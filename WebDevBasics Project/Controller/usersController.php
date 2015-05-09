@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
         $sessionKey = $userService->loginUser($_POST['username'], $_POST['password']);
 
         if($sessionKey != ""){
-            header("Location: index.php");
+            header("Location: index.php?page=main");
         }
         else{
             header("Location: index.php?page=error&error=Username or password don't match");
@@ -60,12 +60,11 @@ if(isset($_POST['registerUser'])){
 
         $userService->registerUser($newUser);
         $userService->loginUser($newUser->getUsername(), $_POST['password']);
-        header("Location: index.php");
+        header("Location: index.php?page=main");
     }
     catch(Exception $ex){
         $error = $ex->getMessage();
-        var_dump($error);
-        //header("Location: index.php?page=error&wat=3&&error=".$error);
+        header("Location: index.php?page=error&error=".$error);
     }
 }
 
@@ -100,7 +99,7 @@ function validateUserData($userData){
 
 function logoutUser($userService){
     $userService->logoutUser();
-    header("Location: index.php");
+    header("Location: index.php?page=main");
 }
 
 function isValid($str) {
