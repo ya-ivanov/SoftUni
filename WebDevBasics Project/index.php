@@ -7,14 +7,15 @@
         <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="./styles/styles.css"/>
         <link rel="stylesheet" href="./styles/media-queries.css"/>
+        <script src="./ckeditor/ckeditor.js"></script>
 
     </head>
     <body>
 
         <?php
         mb_internal_encoding("UTF-8");
-        /*require_once('Controller/usersController.php');
-        require_once('Controller/postsController.php');
+        require_once('Controller/usersController.php');
+        /*require_once('Controller/postsController.php');
         require_once('Controller/repliesController.php');*/
 
         include './views/header.php';
@@ -42,17 +43,17 @@
                     include "views/main.php";
                     break;
                 case "logout":
-                    //logoutUser($userService);
+                    logoutUser($userService);
                     break;
                 case "error":
                     include "views/error.php";
                     break;
-                case "addPost":
-                    /*if(!$user){
+                case "new-topic":
+                    if(!$user){
                         include 'views/login.php';
                     } else {
-                        include "views/addPost.php";
-                    }*/
+                        include "views/newTopic.php";
+                    }
                     break;
                 case "search":
                     include "views/search.php";

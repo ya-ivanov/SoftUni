@@ -67,6 +67,10 @@ header{
     font-family: 'Source Sans Pro','Arial','Helvetica',sans-serif;
 }
 
+.user-options li{
+    float: left;
+}
+
 #nav-header .nav li, .user-options li{
     vertical-align: super;
     display: inline-block;
@@ -74,6 +78,7 @@ header{
     padding: 5px;
     transition: background 0.3s ease;
     background: transparent;
+    position: relative;
 }
 
 #nav-header .nav li:hover, .user-options li:hover{
@@ -299,4 +304,50 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 30px;
+}
+
+
+.drop-down-menu{
+    display: block;
+    list-style-type: none;
+    width: 100px;
+    background: #ffffff;
+    position: absolute;
+    color: #000000;
+}
+
+.drop-down-menu li{
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #d3d3d3;
+    line-height: 1.43;
+    width: 100%;
+    vertical-align: super;
+    transition: background 0.3s ease;
+    background: transparent;
+    position: relative;
+}
+
+.drop-down-menu li:hover{
+    color: orange;
+}
+
+.drop-down-menu li:last-child{
+    border: none;
+}
+
+.drop-down-item{
+    overflow: hidden!important;
+    padding-bottom: 0px!important;
+}
+
+.drop-down-item:hover{
+    overflow: visible!important;
+}
+
+
+li > a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }

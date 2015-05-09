@@ -19,3 +19,6 @@
         </form>
     </section>
 </main>
+<script>
+    CKEDITOR.replace('topic-content');
+</script>

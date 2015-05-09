@@ -8,8 +8,23 @@
                 <li>About</li>
             </ul>
             <ul class="user-options">
-                <li>Create account</li>
-                <li><a href="./index.php?page=login">Log in</a></li>
+                <?php
+                    if ($user){ ?>
+                        <li><?php echo $user->getFirstName() . " " . $user->getLastName() . "(" . $user->getUsername() . ")"?></li>
+                        <li class="drop-down-item">Options &#x25bc;
+                            <ul class="drop-down-menu">
+                                <li>Profile</li>
+                                <li><a href="index.php?page=logout">Exit</a></li>
+                            </ul>
+                        </li>
+                <?php
+                    } else {?>
+                        <li>Create account</li>
+                        <li><a href="./index.php?page=login">Log in</a></li>
+                <?php
+                    }
+                ?>
+
             </ul>
         </div>
     </div>

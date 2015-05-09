@@ -1,5 +1,3 @@
-
-
 <main id="wrapper">
     <section class="category-holder">
         <div class="category-title">Categories</div>

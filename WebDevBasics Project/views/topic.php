@@ -59,3 +59,6 @@
         </form>
     </section>
 </main>
+<script>
+       CKEDITOR.replace('userReply');
+</script>
