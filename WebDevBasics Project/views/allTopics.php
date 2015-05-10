@@ -1,19 +1,11 @@
-<?php
 
-$topics = $topicsService->searchTopics($_GET['keyword']);
-
-if (!$topics){
-    header('Location: index.php?page=error&error=No topics found by given criteria');
-}
-
-?>
 <main id="wrapper">
     <section class="category-holder">
-        <div class="category-title"><?php echo 'Topics containing "' . $_GET['keyword'] . '"'?></div>
+        <div class="category-title">All topics</div>
         <div class="category-information">
 
             <?php
-
+            $topics = $topicsService->getTopics(5000);
 
             foreach ($topics as $curTopic){ ?>
 
@@ -38,4 +30,4 @@ if (!$topics){
             <?php  }  ?>
         </div>
     </section>
-</main>s
+</main>
