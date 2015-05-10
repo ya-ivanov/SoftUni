@@ -26,6 +26,11 @@ class UsersService{
         return $this->manager->getUserByEmail($email);
     }
 
+    function editUser($user){
+        $this->manager->editUser($user);
+    }
+
+
     function getUserById($id){
         return $this->manager->getUserById($id);
     }

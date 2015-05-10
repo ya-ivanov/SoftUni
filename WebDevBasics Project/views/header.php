@@ -13,7 +13,8 @@
                         <li><?php echo $user->getFirstName() . " " . $user->getLastName() . "(" . $user->getUsername() . ")"?></li>
                         <li class="drop-down-item">Options &#x25bc;
                             <ul class="drop-down-menu">
-                                <li>Profile</li>
+                                <li><a href="index.php?page=user">Profile</a></li>
+                                <?php if ($user->isAdmin()) echo'<li><a href="index.php?page=admin">Admin panel</a></li>';?>
                                 <li><a href="index.php?page=logout">Exit</a></li>
                             </ul>
                         </li>

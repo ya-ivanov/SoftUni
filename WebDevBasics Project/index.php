@@ -17,7 +17,7 @@
         require_once('Controller/usersController.php');
         require_once('Controller/categoriesController.php');
         require_once('Controller/topicsController.php');
-        /*require_once('Controller/repliesController.php');*/
+        require_once('Controller/answersController.php');
 
         include './views/header.php';
 
@@ -40,16 +40,22 @@
                     include 'views/login.php';
                     break;
                 case "user":
-                   /* if(!$user){
+                    if(!$user){
                         include 'views/login.php';
                     } else {
                         include 'views/user.php';
-                    }*/
+                    }
+                    break;
+                case "editTopic":
+                    include 'views/editTopic.php';
+                    break;
+                case "editAnswer":
+                    include 'views/editAnswer.php';
                     break;
                 case "admin":
                  if(!$user || !$user->isAdmin()){
-                    include 'views/main.php';
-                     var_dump($user->isAdmin());
+                    header('Location: index.php?page=main');
+                    //include 'views/main.php';
                  } else {
                      include 'views/admin.php';
 
@@ -80,7 +86,8 @@
             }
         }
         else{
-            include('views/main.php');
+            //include('views/main.php');
+            header('Location: index.php?page=main');
         }
 
         include 'views/footer.php';

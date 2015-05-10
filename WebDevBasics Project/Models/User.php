@@ -18,6 +18,8 @@ class User {
 
     private $isAdmin;
 
+    private $avatar;
+
     function __construct($userData = null) {
 
         if(isset($userData['id'])){
@@ -43,6 +45,9 @@ class User {
         }
         if(isset($userData['is_admin'])){
             $this->isAdmin = $userData['is_admin'];
+        }
+        if(isset($userData['avatar'])){
+            $this->avatar = $userData['avatar'];
         }
     }
 
@@ -175,5 +180,15 @@ class User {
         return $this->isAdmin;
     }
 
+
+    public function setAvatar($avatar)
+    {
+        $this->avatar = $avatar;
+    }
+
+    public function getAvatar()
+    {
+        return $this->avatar;
+    }
 
 }

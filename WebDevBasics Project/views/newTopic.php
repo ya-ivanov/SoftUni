@@ -10,7 +10,7 @@
 
             <select name="category" style="margin-top: 15px;">
                 <?php
-                $categories = $categoryService->getCategories(3);
+                $categories = $categoryService->getCategories(300);
                 foreach ($categories as $category){ ?>
                     <option value="<?php echo $category['id']?>"><?php echo $category['name']?></option>
                 <?php

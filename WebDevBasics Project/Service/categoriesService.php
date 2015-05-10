@@ -25,8 +25,8 @@ class CategoriesService{
         return $this->manager->getCategories($limit);
     }
 
-   /* function deleteCategoryById($id){
-        return $this->manager->($id);
-    }*/
+    function deleteCategoryById($id){
+        $this->manager->deleteCategoryById($id);
+    }
 }
 ?>

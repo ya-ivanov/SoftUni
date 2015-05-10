@@ -33,6 +33,24 @@ if(isset($_POST['login'])){
 }
 
 
+
+
+if (isset($_POST['editProfile'])){
+    try{
+
+        $user->setAvatar($_POST['avatar']);
+        $user->setFirstName($_POST['firstName']);
+        $user->setLastName($_POST['lastName']);
+        $userService->editUser($user);
+
+    }catch (Exception $ex){
+        $error = $ex->getMessage();
+        header("Location: index.php?page=error&error=".$error);
+    }
+
+}
+
+
 if(isset($_POST['registerUser'])){
     try{
         validateUserData($_POST);
@@ -105,6 +123,8 @@ function logoutUser($userService){
 function isValid($str) {
     return !preg_match('/[^A-Za-z0-9.#\\-$]/', $str);
 }
+
+
 
 
 

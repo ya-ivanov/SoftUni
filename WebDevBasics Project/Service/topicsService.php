@@ -56,5 +56,9 @@ class TopicsService{
     function getTopicsByCategoryId($id){
         return $this->manager->getTopicsByCategoryId($id);
     }
+
+    function editTopic($id, Topic $topic){
+        $this->manager->editTopic($id, $topic);
+    }
 }
 ?>

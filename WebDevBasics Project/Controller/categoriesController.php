@@ -22,3 +22,16 @@ if (isset($_POST['createCategory'])){
         header("Location: index.php?page=error&error=".$error);
     }
 }
+
+
+if (isset($_POST['deleteCategory'])){
+    try{
+        $categoryService->deleteCategoryById($_POST['categoryToDelete']);
+        header('Location: index.php?page=admin');
+        die();
+    }
+    catch(Exception $ex){
+        $error = $ex->getMessage();
+        header("Location: index.php?page=error&error=".$error);
+    }
+}

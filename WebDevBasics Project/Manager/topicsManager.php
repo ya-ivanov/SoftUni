@@ -19,12 +19,12 @@ class TopicsManager{
         $query->execute();
     }
 
-    function editTopic($id, $title, $category_id){
-        $query = $this->pdo->prepare("UPDATE topics (title, content, category_id)
-                                VALUES (:title, :content, :category_id) WHERE id LIKE :id");
+    function editTopic($id, Topic $topic){
+        $query = $this->pdo->prepare("UPDATE `topics` SET title = :title, content = :content, category_id = :category_id  WHERE id LIKE :id");
         $query -> bindParam(':id', $id);
-        $query -> bindParam(':title', $title);
-        $query -> bindParam(':category_id', $category_id);
+        $query -> bindParam(':title', $topic->getTitle());
+        $query -> bindParam(':content', $topic->getContent());
+        $query -> bindParam(':category_id', $topic->getCategoryId());
         $query->execute();
     }
 
@@ -52,7 +52,7 @@ class TopicsManager{
     }
 
     function getMostPopularTopics(){
-        $query = $this->pdo->prepare("SELECT * FROM topics ORDER BY views DESC LIMIT 4");
+        $query = $this->pdo->prepare("SELECT * FROM topics ORDER BY views DESC LIMIT 3");
         $query->execute();
 
         $data = $query->fetchAll();

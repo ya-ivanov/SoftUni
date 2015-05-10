@@ -23,7 +23,7 @@ class UsersManager{
     }
 
     function getUserByUsername($username){
-        $query = $this->pdo->prepare("SELECT id, username, first_name AS firstName, last_name AS lastName, password, salt
+        $query = $this->pdo->prepare("SELECT id, username, first_name AS firstName, last_name AS lastName, password, salt, avatar
                                           FROM users
                                           WHERE username LIKE :username");
         $query->bindParam(':username', $username);
@@ -49,7 +49,7 @@ class UsersManager{
     }
 
     function getUserByEmail($email){
-        $query = $this->pdo->prepare("SELECT id, username, first_name AS firstName, last_name AS lastName
+        $query = $this->pdo->prepare("SELECT id, username, first_name AS firstName, last_name AS lastName, avatar
                                           FROM users
                                           WHERE email LIKE :email");
         $query->bindParam(':email', $email);
@@ -71,9 +71,23 @@ class UsersManager{
         $query->execute();
     }
 
+    function editUser(User $user){
+        $query = $this->pdo->prepare("UPDATE users
+                                          SET avatar = :avatar,
+                                          first_name = :firstName,
+                                          last_name = :lastName
+                                          WHERE id LIKE :id");
+        $query->bindParam(':id', $user->getId());
+        $query->bindParam(':avatar', $user->getAvatar());
+        $query->bindParam(':firstName', $user->getFirstName());
+        $query->bindParam(':lastName', $user->getLastName());
+
+        $query->execute();
+    }
+
     function getUserBySessionKey($sessionKey){
         $query = $this->pdo->prepare("SELECT users.id, users.username, users.first_name AS firstName, users.last_name AS lastName,
-                                          users.email, users.is_admin
+                                          users.email, users.is_admin, avatar
                                           FROM users
                                           WHERE session_key LIKE :sessionKey");
         $query->bindParam(':sessionKey', $sessionKey);
@@ -87,7 +101,7 @@ class UsersManager{
     }
 
     function getUserByUsernameAndPassword($username, $password){
-        $query = $this->pdo->prepare("SELECT id, username, first_name AS firstName, last_name AS lastName, salt
+        $query = $this->pdo->prepare("SELECT id, username, first_name AS firstName, last_name AS lastName, salt, avatar
                                           FROM users
                                           WHERE username LIKE :username AND password LIKE :password");
         $query->bindParam(':username', $username);

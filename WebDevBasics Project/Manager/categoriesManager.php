@@ -11,8 +11,10 @@ class CategoryManager{
     }
 
     function createCategory(Category $category){
-        $query = $this->pdo->prepare("INSERT INTO categories (name) VALUES (:name)");
+        $query = $this->pdo->prepare("INSERT INTO categories (name, description) VALUES (:name, :description)");
         $query -> bindParam(':name', $category->getName());
+        $query -> bindParam(':description', $category->getDescription());
+
         $query->execute();
     }
 
@@ -53,6 +55,12 @@ class CategoryManager{
             return ($data);
         }
         return null;
+    }
+
+    function deleteCategoryById($id) {
+        $query = $this->pdo->prepare("DELETE FROM categories  WHERE id = :id");
+        $query->bindParam(':id', $id);
+        $query->execute();
     }
 
 }

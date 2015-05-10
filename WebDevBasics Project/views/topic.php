@@ -23,6 +23,12 @@ if (isset($_POST['like'])){
     echo "<script>window.location = window.location</script>";
 }
 
+if (isset($_GET['deleteAnswer'])){
+   if (($user && $user->isAdmin()) || ($user && $userService->getUserById($_GET['deleteAnswer'])->getId() == $user->getId())){
+       $answerService->deleteAnswer($_GET['deleteAnswer']);
+   }
+}
+
 ?>
 
 <link rel="stylesheet" href="./styles/topic.css"/>
@@ -31,10 +37,18 @@ if (isset($_POST['like'])){
     <section class="topic-wrapper">
         <section class="topic-post">
             <div class="post-header">
-                <img src="./images/default-user-avatar.png" class="user-avatar"/>
+                <img src="<?php if ($author->getAvatar()) {echo $author->getAvatar();} else {echo './images/default-user-avatar.png';}?>" class="user-avatar"/>
                 <div class="post-info">
                     <span class="post-title"><?php echo $topic->getTitle()?></span>
-                    <span class="post-stats">By <strong class="answer-username"><?php echo $author->getUsername()?></strong> on <?php echo $topic->getDate()?>. Views:<strong><?php echo " " . $topic->getViews()?></strong></span>
+                    <span class="post-stats">By
+                        <strong class="answer-username"><?php echo $author->getUsername()?></strong>
+                        on <?php echo $topic->getDate()?>. Views:<strong><?php echo " " . $topic->getViews()?></strong>
+                        <?php if (($user && $user->getId() == $author->getId()) || ($user && $user->isAdmin())) {
+                            echo "<a style='margin-left:10px;' href='index.php?page=editTopic&topic-id=" .  $_GET['topic-id'] . "'>Edit</a>";
+                            echo "<a style='margin-left:10px;' href='index.php?page=main&deleteTopic=" . $_GET['topic-id']. "'>Delete</a>";
+
+                        }?>
+                    </span>
                 </div>
                 <div class="vote-controls">
                     <form method="post">
@@ -47,20 +61,35 @@ if (isset($_POST['like'])){
             <div class="post-content"><?php echo nl2br($topic->getContent())?></div>
         </section>
 
-        <!--<section class="topic-post">
-            <div class="post-header">
-                <img src="./images/default-user-avatar.png" class="user-avatar"/>
-                <div class="post-info">
-                    <span class="post-title">Testing this out</span>
-                    <span class="post-stats">By <strong class="answer-username">mrtest</strong> on 26 Nov 2014, 07:22</span>
-                </div>
-            </div>
-            <div class="post-content">
-                Hi mrtest,  <br><br>
+        <?php
 
-                I completely agree with you. Good luck.
-            </div>
-        </section>-->
+        $answers = $answerService->getAnswersByTopicId($_GET['topic-id']);
+
+        if ($answers){
+            foreach ($answers as $curAnswer){ ?>
+
+                <section class="topic-post">
+                    <div class="post-header">
+                        <img src="<?php if ($userService->getUserById($curAnswer['author_id'])->getAvatar()) {echo $userService->getUserById($curAnswer['author_id'])->getAvatar();} else {echo './images/default-user-avatar.png';}?>" class="user-avatar"/>
+                        <div class="post-info">
+                            <span class="post-title"><?php echo 'RE:' . $topic->getTitle() ?></span>
+                            <span class="post-stats">
+                                By <strong class="answer-username"><?php echo $userService->getUserById($curAnswer['author_id'])->getUsername()?></strong> on <?php echo $curAnswer['date']?>
+                                <?php if (($user && $user->getId() == $curAnswer['author_id']) || ($user && $user->isAdmin())) {
+                                    echo "<a style='margin-left:10px;' href='index.php?page=editAnswer&answer-id=" .  $curAnswer['id'] . "&topic-id=" . $_GET['topic-id'] . "'>Edit</a>";
+                                    echo "<a style='margin-left:10px;' href='index.php?page=topic&topic-id=" . $_GET['topic-id'] . "&deleteAnswer=" .  $curAnswer['id'] . "&topic-id=" . $_GET['topic-id'] . "'>Delete</a>";
+                                }?>
+
+                            </span>
+                        </div>
+                    </div>
+                    <div class="post-content"><?php echo nl2br($curAnswer['content']);?></div>
+                </section>
+
+        <?php
+            }
+        }?>
+
     </section>
 
     <?php
@@ -69,8 +98,8 @@ if (isset($_POST['like'])){
         <span class="or-reg" style="border: none; padding: 0">Have anything to say? Add a new reply now</span>
         <section class="add-reply">
             <form method="post">
-                <textarea name="userReply" id="userReply"></textarea>
-                <input type="submit" value="Reply" id="replyBtn" name="replyBtn"/>
+                <textarea name="content" id="userReply"></textarea>
+                <input type="submit" value="Reply" id="replyBtn" name="addReply"/>
             </form>
         </section>
     <?php } else { ?>

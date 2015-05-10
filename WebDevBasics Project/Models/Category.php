@@ -8,8 +8,6 @@ class Category {
 
     private $description;
 
-
-
     function __construct($categoryData = null) {
 
         if(isset($categoryData['id'])){
