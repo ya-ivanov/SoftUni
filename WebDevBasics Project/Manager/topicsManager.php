@@ -6,7 +6,7 @@ class TopicsManager{
     private $pdo;
 
     function __construct() {
-        $this->pdo = new PDO('mysql:host=mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/;dbname=topico;charset=utf8', DATABASE_USER);
+        $this->pdo = new PDO('mysql:host=localhost;dbname=softuni_forum;charset=utf8', DATABASE_USER);
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 
